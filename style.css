@@ -1,0 +1,150 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#first-part{
+    background-image: url(images/donation13.jpg);
+    background-size: 100%;
+    height: 400px;
+    padding: 50px;
+    text-align: center;
+}
+#first-part h1{
+    color: white;
+    text-align: center;
+}
+#first-part p{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+#first-part button{
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 5px;
+    height: 50px;
+}
+/* Make a donation part */
+#second-part{
+    background-color: white;
+    background-size: 100%;
+    text-align: center;
+    padding: 50px;
+}
+#second-part h1{
+    font-weight: bolder;
+}
+#second-part .box{
+    width: 200px;
+    height: 100px;
+    font-weight:bolder;
+    padding-top: 40px;
+    text-align: center;
+    border: 1px solid rgba(211, 211, 211, 0.385);
+    background-color: rgba(211, 211, 211, 0.385);
+    display: inline-block;
+}
+#second-part #tk{
+    width: 200px;
+    height: 100px;
+    font-weight:bolder;
+    padding-top: 40px;
+    text-align: center;
+    color: red;
+    border: 1px solid red;
+    background-color:rgba(240, 128, 128, 0.563);
+    display: inline-block;
+}
+#input-part{
+    color: lightgrey;
+    padding-top: 40px;
+}
+#second-part button{
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 5px;
+    height: 50px;
+}
+
+/* donation plan */
+
+#third-part{
+    background-size: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+#third-part .box-1{
+    width: 350px;
+    height: 350px;
+    border: 1px solid white;
+    margin: 10px;
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+}
+#third-part #box-one{
+    background-color: lightcyan;
+}
+#third-part #box-two{
+    background-color: rgba(255, 182, 193, 0.445);
+}
+#third-part #box-three{
+    background-color: lightyellow;
+}
+
+/* fouth part */
+#fourth-part{
+    background-color: white;
+    background-size: 100%;
+    display: flex;
+
+}
+
+#fourth-part button{
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    border-radius: 5px;
+    height: 50px;
+}
+.half-width{
+    width: 50%;
+    margin: 40px;
+}
+.half-width img{
+    width: 90%;
+}
+
+/* fifth part */
+
+.fifth-part{
+    background-color: white;
+    width: 100%;
+    
+    display: flex;
+}
+.h-width{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    margin: 50px;
+    height: 300px;
+    width: 100%;
+}
+.fifth-part button{
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    height: 40px;
+}
+
+/* footer part */
+
+footer{
+    height: 200px;
+    background-color: black;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
